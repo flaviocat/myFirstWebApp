@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 class GreeterTest {
 
-    private Greeter g=new Greeter();
+    private Greeter g=new Greeter("test");
 
     @Test
     public void greeterSaysHello(){
