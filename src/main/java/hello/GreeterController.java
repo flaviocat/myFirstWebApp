@@ -12,6 +12,6 @@ public class GreeterController {
 
     @RequestMapping("/greeting")
     public Greeter greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        return new Greeter(String.format(template, name));
+        return new Greeter("test");
     }
 }
